@@ -1,8 +1,18 @@
 Algoritmo ejercicios_clase_2
 	
 //	Pide al usuario dos números enteros y muestra su suma
+	Definir b, h, area Como Real
 	
+	imprimir "Ingrese base"
+	Leer b
+	Imprimir "Ingrese altura"
+	leer h
+	
+	area = b * h
+	
+	Imprimir "El area del ractangulo ", area
 //	Calcula y muestra el área de un rectángulo (b*h)
+
 	
 //	Pide una temperatura en grados Celsius y la convierte a Fahrenheit (Celsius * 9/5) + 32
 	
