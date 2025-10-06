@@ -33,8 +33,10 @@ def calcular_area_rectangulo(b, h): # area_rectangulo = b * h
 # res = calcular_area_rectangulo(2, 3) + 5
 # print(res)
 
+# ===============================================================
 # Tarea: hacer las funciones para triangulo, circulo
-
+# Tarea: unificar todos los calculos de arear en un menu(c,r,t,cir)
+# =====================================================================
 # funciones con retorno
 
 def calcular_area_rectangulo(b, h): # area_rectangulo = b * h
