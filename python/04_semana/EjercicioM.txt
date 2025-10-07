@@ -1,0 +1,15 @@
+Una tienda necesita un sistema básico para gestionar sus productos. Cada producto tiene:
+
+-nombre(str)
+-precio(float)
+-stock(int)
+-marca(opcional)
+
+Se pide:
+
+1-Crear una función registrar_producto(nombre, precio, stock, **kwargs) que:
+  - Agregue el producto a una lista global llamada inventario.
+  -Permita incluir datos opcionales como marca, categoría, etc.
+2-Crear una función mostrar_ficha(producto) que imprima todos los datos del producto.
+3-Crear una función filtrar_stock_bajo(lista, limite) que devuelva una nueva lista con productos cuyo stock sea menor al límite.
+4-Crear una función calcular_total(*precios) que devuelva la suma total de los precios recibidos.
