@@ -32,17 +32,17 @@ print(f'Los productos con descuento son:{productos_con_descuento}')
 #   buscar un destino en la tupla y, al encontrarlo, 
 #   usa break para salir inmediatamente del bucle, optimizando la búsqueda.
 #               0         1         2          3        4
-# destinos = ("Portugal", "China", "Mexico", "Japon", "Australia")
-# pais = input("Ingrese el destino a verficar: ")
+destinos = ["Portugal", "China", "Mexico", "Japon", "Australia"]
+pais = input("Ingrese el destino a verficar: ")
 
-# for destino in destinos:
-#     if destino == pais.capitalize():
-#         print(f"Su destino {pais} esta disponible!")
-#         break
-#     else:
-#         print(f"Buscando... Pais: {pais}")
-# else:
-#     print(f"Busqueda finalizado, no hubo coincidencias para {pais}")
+for destino in destinos:
+    if destino == pais.capitalize():
+        print(f"Su destino {pais} esta disponible!")
+        break
+    else:
+        print(f"Buscando... Pais: {pais}")
+else:
+    print(f"Busqueda finalizado, no hubo coincidencias para {pais}")
 
 
 
