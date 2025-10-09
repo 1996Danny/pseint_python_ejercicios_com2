@@ -78,12 +78,12 @@ def obtener_promedio(*numeros): # sumar todos los numeros y dividir x la cant
 
 # **kwargs (clave=valor)
 
-def crear_perfil_usuario(nombre="usuario" , **kwargs):
-    print(nombre)
-    print("_____________________________________")
+# def crear_perfil_usuario(nombre="usuario" , **kwargs):
+#     print(nombre)
+#     print("_____________________________________")
 
-    for clave, valor in kwargs.items():
-        print(f"{clave} : {valor}")
+#     for clave, valor in kwargs.items():
+#         print(f"{clave} : {valor}")
 
-crear_perfil_usuario("Daniel", apellido="Frias", edad=28, nac="20/6")
-crear_perfil_usuario("Daniel", apellido="Frias", edad=28, nac="20/6", direc="Belgrano 102", prov="Chaco")
+# crear_perfil_usuario("Daniel", apellido="Frias", edad=28, nac="20/6")
+# crear_perfil_usuario("Daniel", apellido="Frias", edad=28, nac="20/6", direc="Belgrano 102", prov="Chaco")
