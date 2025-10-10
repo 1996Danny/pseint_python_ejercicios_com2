@@ -1,0 +1,34 @@
+Unidades comunes en Tkinter
+
+*Píxeles (px):  
+  La mayoría de las propiedades como width, height, padx, pady, borderwidth, x, y, etc., se expresan en píxeles.
+
+Ejemplo: width=200 significa 200 píxeles de ancho.
+
+*Caracteres (para widgets de texto):
+  En widgets como Entry, Text, o Label, el ancho puede definirse en número de caracteres.
+
+Ejemplo: width=20 en un Entry significa que caben aproximadamente 20 caracteres.
+
+*Relativas (en layouts):
+  En pack, grid y place, algunas propiedades como relx, rely, relwidth, relheight se expresan como valores entre 0 y 1, representando proporciones relativas al contenedor.
+
+Ejemplo: relwidth=0.5 significa que el widget ocupará el 50% del ancho del contenedor.
+
+*En relación a los widget que manejan texto:
+-*Entry
+Ancho (width): se mide en caracteres promedio.
+Alto: no se puede configurar directamente. Siempre es de una sola línea.
+
+Si querés múltiples líneas, tenés que usar Text.
+
+-*Text
+Ancho (width) y alto (height): ambos se miden en caracteres.
+width=40 y height=10 significa 40 caracteres de ancho por 10 líneas de alto.
+Esto depende de la fuente usada, pero es una buena aproximación.
+
+-*Label
+Ancho (width) y alto (height): también se pueden definir en caracteres, pero hay matices:
+Si usás text, el tamaño se ajusta automáticamente al contenido.
+Si definís width y height, se interpretan como número de caracteres (ancho) y líneas (alto), basado en la fuente.
+Si usás image, el tamaño se ajusta al tamaño de la imagen.
