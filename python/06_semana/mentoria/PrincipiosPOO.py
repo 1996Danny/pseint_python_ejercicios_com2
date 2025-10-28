@@ -1,4 +1,4 @@
-# 1-Crear un Personaje
+# 1-Crear un Personaje!
 
 class Personaje:
     poder_global = 100  # Atributo de clase y que es comparitdo por todos.
