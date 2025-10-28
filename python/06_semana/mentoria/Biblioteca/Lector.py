@@ -10,8 +10,8 @@ class Lector:
 
     def devolver_libro(self, libro):
         if libro in self._libros_prestados:
-            libro.devolver()
+            libro.devolver()  # ---> Esta función marca el libro en la propiedad __prestado a FALSO
             self._libros_prestados.remove(libro)
         else:
             print(
-                f"El libro {libro._titulo} no está prestado por {self._nombre}.")
+                f"El libro {libro._titulo} no está prestado a {self._nombre}.")
