@@ -20,7 +20,6 @@ class Estudiante(Persona):
     def saludar(self):
         return "Hola desde clase estudiantes"
 
-
 # per = Persona("Adrian", "Juarez")
 # print(per.nombre)
 # print(per.saludar())
